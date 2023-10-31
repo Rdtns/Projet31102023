@@ -7,4 +7,4 @@ jobs:
     steps:
     - uses: actions/checkout@master
     - run: |
-          jar cvf rdtns.war * && ls
+          jar cvf Rdtns.war * && ls
